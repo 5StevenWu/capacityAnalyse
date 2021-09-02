@@ -1,0 +1,1705 @@
+指定字符在其中剪贴板数据脚本：每隔0.台脚本：每隔0.2秒，读取剪切板文本，检查有无指定字符或字符串，如果剪贴板数
+获取剪贴板数据"
+(t)
+            with open('clip.txt','a',encoding='utf-8') as file_obj:
+                file_obj.write(t)
+                file_obj.write('\n')
+
+class jianting():
+    def clipboard_get(self):
+        """获取剪贴板数据""
+后台脚本：每隔0.2秒，读取剪切板文本，检查有无指定字符或字符串，如果有则执行替换"""
+        # recent_txt 存放最近一次剪切板文本，初始化值只多执行一次paste函数读取和替换
+试题解析：
+【多选题】对于从LTE向eHRPD做互操作，那么核心网方面，按照上下文和session的状态可以分为下述哪几种
+已作答举报
+
+A. HSGW存在部分上下文，eHRPD系统存在session
+B. HSGW不存在部分上下文，但eHRPD系统存在session
+C. HSGW存在部分上下文，eHRPD系统不存在session
+D. HSGW不存在部分上下文，eHRPD系统不存在session
+你的答案：B正确答案：ABD
+【多选题】R9终端相对于R8终端，在异系统重选上需要注意什么？
+已作答举报
+
+A. 我司建议关闭RSRQ的判决门限
+B. 基于RSRP的测量参数门限参数不同
+C. R9终端的重选测量启动时候不仅仅是会被RSRP触发，还会被RSRQ触发
+D. 没什么区别
+你的答案：C正确答案：AC
+【多选题】LTE往UMTS异系统切换测试过程中需要区分是成功切换还是脱网重搜，切换命令和切换完成分别对应下述哪些消息
+已作答举报
+
+A. MobilityFromEUTRACommand
+B. RRCConnectionRelease
+C. RRCConnectionReconfiguration
+D. HandoverToUTRANComplete
+你的答案：D正确答案：AD
+【多选题】异系统切换中的B2事件的进入条件，描述正确的是下述哪些
+已作答举报
+
+A. Ms+Hys
+B. Ms-Hys>Thresh1
+C. Mn+Ofn-Hys>Thresh2
+D. Mn+Ofn+Hys
+你的答案：C正确答案：AC
+【多选题】下行UDP灌包ftp服务器流量不足的可能原因有哪些？
+已作答举报
+
+A. iperf灌包工具配置参数存在问题（包长
+B. 网卡硬件能力不足
+C. 网卡配置不正确（双工模式
+D. 防火墙限速
+你的答案：B正确答案：ABCD
+【多选题】ANR过程中，UE检测到未知邻区的ECGI后上报MR消息，MR消息中除了ECGI外，还有邻区的哪些参数
+已作答举报
+
+A. PCI
+B. TAC
+C. MCC
+D. MNC
+你的答案：C正确答案：AB
+【多选题】LTE往UMTS的异系统切换，可以采用下述哪些事件
+已作答举报
+
+A. A4
+B. A5
+C. B1
+D. B2
+你的答案：B正确答案：CD
+【多选题】对于CSFB时延优化，核心网侧可取的方案有
+已作答举报
+
+A. CSFB鉴权流程优化
+B. 抑制CSFB某些场景下的二次TMSI重分配方案
+C. 预寻呼策略
+D. MSC侧对主被叫的RAB建立并行处理
+E. 开启Qos更新流程
+你的答案：D正确答案：ABCDE
+【多选题】ANR的运行模式，可以分为
+已作答举报
+
+A. 0-FreeMode
+B. 1-ControlledMode
+C. 2-hybridMode
+D. 以上都对
+你的答案：B正确答案：AB
+【多选题】下述哪些场景，可能触发基于覆盖的重定向
+已作答举报
+
+A. UE无线能力不支持切换到异频或（和）异系统邻区
+B. 网络侧（包括接入网或、和核心网）不能支持频间或系统间切换
+C. 异频/异系统切换测量报告中仅携带未知PCI
+D. 异频/异系统切换测量报告中仅携带未知PCI，且所有已知PCI均尝试失败
+你的答案：D正确答案：ABCD
+【多选题】CA载波聚合中每个分量载波的带宽可以是
+已作答举报
+
+A. 5M
+B. 10M
+C. 15M
+D. 20M
+你的答案：C正确答案：ABCD
+【多选题】从LTE向eHRPD重选，如果设置为低优先级，那么对于目标eHRPD系统而言，其threshX设置上，下面哪几个是错误的或者明显不合适的？
+已作答举报
+
+A. 80dBm
+B. 3dB
+C. 15dB
+D. 90dBm
+你的答案：C正确答案：AD
+
+【多选题】EUTRAN内切换准备失败包括哪几种情况？
+已作答举报
+
+A. 同站小区间切换请求遭拒绝
+B. 通过S1口切换时目标站点拒绝来自MME的切换请求
+C. 通过X2口切换时目标站点拒绝来自源站的切换请求
+D. 同站切换源小区没有收到来自目标小区的UE上下文释放请求
+你的答案：C正确答案：ABC
+【多选题】LTE协议可以支持哪些系统带宽？
+已作答举报
+
+A. 1.4MHz
+B. 5MHz
+C. 20MHz
+D. 15MHz
+你的答案：B正确答案：ABCD
+【多选题】ntraF Trigger Quantity可以配置成
+已作答举报
+
+A. A3
+B. RSRP
+C. RSRQ
+D. Event triggered reporting
+你的答案：D正确答案：BC
+【多选题】LTE系统内几种功率之间的关系哪些是正确的？
+已作答举报
+
+A. 小区发射功率≤小区最大发射功率
+B. 小区最大发射功率≤RRU额定功率
+C. 参考信号（RS）发射功率 < 小区发射功率
+D. Initial Power for Preamble of PRACH < 网络允许UE发射的功率
+你的答案：D正确答案：ABCD
+【多选题】干扰排查工程师的工作职责包括如下哪几项？
+已作答举报
+
+A. 收集网络信息
+B. 制定干扰排查工作计划
+C. 具体执行干扰的排查与定位
+D. 参与同代表处
+你的答案：D正确答案：ABCD
+
+【多选题】对于外部干扰，常用解决措施包括
+已作答举报
+
+A. 通过调整LTE系统的天线位置，方位角，下倾角，高度等，使天线主瓣背离干扰源，增加LTE系统与干扰源的空间隔离度
+B. 增加滤波器。当干扰源是PHS基站或CDMA1.9G基站时，其对LTE基站的干扰以杂散干扰为主，需与相关运营商协商为干扰源安装滤波器，以减轻对LTE系统的干扰
+C. 修改干扰源设备参数。当干扰源是直放站或干放等放大设备时，可以修改其上下行增益，以改善自激，减轻对施主基站和周边基站的干扰
+D. 关闭干扰源
+你的答案：D正确答案：ABCD
+【多选题】在分析U-Plane Latency时，需要从以下几个方面考虑？
+已作答举报
+
+A. Ping sizes/Ping包的尺寸
+B. scheduling mode/调度模式
+C. radio conditions/无线环境
+D. UE locations in the cell/UE在小区中的位置
+你的答案：D正确答案：ABCD
+【多选题】发现干扰的常用手段有
+已作答举报
+
+A. 路测扫频
+B. 更换单板
+C. 性能监控
+D. 重启基站
+你的答案：D正确答案：AC
+【多选题】Share Cover指示了server cell和EUTRAN neighboring cell的位置关系，可以配置成
+已作答举报
+
+A. neighboring
+B. same coverage
+C. Containing
+D. Contained
+你的答案：C正确答案：ABCD
+【多选题】C-Plane Latency也即状态转换时延，反映了控制面处理时间，是LTE提供”always on”功能的必要技术表征。NGMN定义了哪2种状态转换时延？
+已作答举报
+
+A. Idle <-> Suitable
+B. Idle <-> Active
+C. Acceptable <-> Active
+D. Dormant <-> Active
+你的答案：D正确答案：BD
+【多选题】统计切换过程用户面中断时间需要考虑哪几方面因素？
+已作答举报
+
+A. 可区分有竞争冲突和无竞争冲突两种随机接入模式
+B. 可区分intra-Enb
+C. 可区分配置天线是单天线和双天线
+D. 可区分有data forwarding 和没有data forwarding 两种
+你的答案：D正确答案：ABD
+【判断题】适当降低IntraF Hysterisis，可以使切换更容易发生。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】基于覆盖的同频切换Intra-frequency Handover Strategy一般用A3或A5测量事件。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】通过基站侧log记录Paging次数作为寻呼尝试次数，同时记录收到的来自UE的RRC Connection request消息的次数，作为成功响应Paging的次数。
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+【判断题】QCI的全称是QoS Class Identifier。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+【判断题】CP Selection for Phsical Channel for Non MBSFN一般配置为extended cyclic prefix。
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+【判断题】增大Number of Random Access Preambles，会增加接入冲突碰撞的次数。
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+【判断题】增大Cell-specific Reference Signals Power，会增大小区的覆盖范围。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】Number of Candidate Cell是指“the selected numbers as handover candidate cell in the cell list of measurement report”。所以一般情况下，该参数值一定不能小于3。
+已作答举报
+
+对
+错
+你的答案：对正确答案：错
+【判断题】Average DL Cell MAC Throughput是指小区在MAC层的统计平均速率。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】Paging Success Time反映了UE响应寻呼的时延，LSTI定义为基站发出paging到收到RRCConnectionRequest消息的时间差。
+已作答举报
+
+对
+错
+你的答案：对正确答案：错
+【判断题】KPI的全称是Key Performance Indicator。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+【判断题】Average User Number per QCI需要按照用户的QCI分别统计。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】RRC Reestablishment的成功率是这样计算的：RRCConnectionReestablishmentRequest的次数/RRCConnectionReestablishmentComplete的次数。该统计方法也有局限性。比如：eNodeB忽略了UE侧发起了RRCConnectionReestablishmentRequest而基站侧没有收到的情况（由于随机接入冲突等原因）。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】LTE系统20MHz的小区实际可使用100个PRB。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+【判断题】UDP/FTPDL理论峰值要比MACDL理论峰值吞吐量大。
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+【判断题】以12天为一个周期，统计这12天内所有ANR发现的邻区（无论终端是否添加为正式邻区）；并在周期结束时，对所发现的邻区进行优先级排序；根据邻区优先级，以及当前已存在的正式邻区关系配置，调整邻区添加门限
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+【判断题】板间CA不支持跨BPL1和BPN0的CA
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+【判断题】临时邻区是ANR自动优化功能的基础，通过对临时邻区的控制，来完成对整个邻区关系的添加控制。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+【判断题】FDDLTE向EHRPD的非优化切换中，如果采用基于B2事件的方式，那么在整个非优化切换流程中，就不会出现A2事件
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+
+试题解析：
+【判断题】ANR功能包括邻区自添加功能和邻区自删除功能，ANR自添加发现新的邻区关系并加入到邻区关系列表中，ANR自删除功能将符合删除条件邻区关系从邻区关系表中去掉
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】LTE到UMTS的重选后，会伴随有RAU流程
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+【判断题】在进行NetworkAccessibility测试时，一种测试方式是在网络中随机选取N个采样点，在每个采样点分别进行手动和自动PLMN选择，尝试小区选择和注册。运营商Logo出现在UE侧，则认为成功，否则失败。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】对于ping包时延，可通过连接eNB的DEBUG口抓包进行分析
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】LTE和CDMA之间的语音互操作，主流是采用SVLTE的做法。协议中不存在1XCSFB的说法
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+【判断题】“关闭基于RSRQ的判决门限配置开关”的推荐设置是关闭
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】在CA载波聚合中，如果Scell发生RLF，不会触发RRC连接重建立
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】LTE向eHRPD的互操作需要配置邻区，且邻区数据可以通过ICM批量导入
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】开启ANR前，先检查现网小区最大邻区数、负载情况，当网络处于低负载状态，并且用户数量和切换次数很少，不能打开ANR自删除功能，避免小区间重要邻区关系因为没有发生过切换而被误删除
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+【判断题】Speedtest是Ookla推出的一款可视化网速测试工具，其承载在ICMP协议之上
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】iper除了能灌UDP包，也可以灌TCP的包。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】若eNB开通板间CA，则还需要额外配置CRO单板，且CRO的单板功能模式要配置成CloudRadio
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】基于测量的重定向使用A2事件触发测量，使用B2事件执行重定向
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】ANR的目的是减少运营商手工优化邻区关系的工作负荷
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【判断题】Bler的全称是BlockErrorRatio。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+练习题库： 月考题库2106当前第2轮 完成度21.0% 查看错题 停止练习
+Previous
+【多选题】ANR的运行模式，可以分为
+已作答举报
+
+A. 0-FreeMode
+B. 1-ControlledMode
+C. 2-hybridMode
+D. 以上都对
+你的答案：B正确答案：AB
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】下述哪些场景，可能触发基于覆盖的重定向
+已作答举报
+
+A. UE无线能力不支持切换到异频或（和）异系统邻区
+B. 网络侧（包括接入网或、和核心网）不能支持频间或系统间切换
+C. 异频/异系统切换测量报告中仅携带未知PCI
+D. 异频/异系统切换测量报告中仅携带未知PCI，且所有已知PCI均尝试失败
+你的答案：D正确答案：ABCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】CA载波聚合中每个分量载波的带宽可以是
+已作答举报
+
+A. 5M
+B. 10M
+C. 15M
+D. 20M
+你的答案：C正确答案：ABCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】从LTE向eHRPD重选，如果设置为低优先级，那么对于目标eHRPD系统而言，其threshX设置上，下面哪几个是错误的或者明显不合适的？
+已作答举报
+
+A. 80dBm
+B. 3dB
+C. 15dB
+D. 90dBm
+你的答案：C正确答案：AD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】测试小区边缘用户下行吞吐量时需要什么样的测试环境？
+已作答举报
+
+A. 单小区加载
+B. 被测小区用静止UE
+C. 被测小区只有一个UE
+D. 多小区下行加载
+你的答案：C正确答案：BCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】EUTRAN内切换准备失败包括哪几种情况？
+已作答举报
+
+A. 同站小区间切换请求遭拒绝
+B. 通过S1口切换时目标站点拒绝来自MME的切换请求
+C. 通过X2口切换时目标站点拒绝来自源站的切换请求
+D. 同站切换源小区没有收到来自目标小区的UE上下文释放请求
+你的答案：C正确答案：ABC
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】LTE协议可以支持哪些系统带宽？
+已作答举报
+
+A. 1.4MHz
+B. 5MHz
+C. 20MHz
+D. 15MHz
+你的答案：B正确答案：ABCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】ntraF Trigger Quantity可以配置成
+已作答举报
+
+A. A3
+B. RSRP
+C. RSRQ
+D. Event triggered reporting
+你的答案：D正确答案：BC
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】LTE系统内几种功率之间的关系哪些是正确的？
+已作答举报
+
+A. 小区发射功率≤小区最大发射功率
+B. 小区最大发射功率≤RRU额定功率
+C. 参考信号（RS）发射功率 < 小区发射功率
+D. Initial Power for Preamble of PRACH < 网络允许UE发射的功率
+你的答案：D正确答案：ABCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】干扰排查工程师的工作职责包括如下哪几项？
+已作答举报
+
+A. 收集网络信息
+B. 制定干扰排查工作计划
+C. 具体执行干扰的排查与定位
+D. 参与同代表处
+你的答案：D正确答案：ABCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】对于外部干扰，常用解决措施包括
+已作答举报
+
+A. 通过调整LTE系统的天线位置，方位角，下倾角，高度等，使天线主瓣背离干扰源，增加LTE系统与干扰源的空间隔离度
+B. 增加滤波器。当干扰源是PHS基站或CDMA1.9G基站时，其对LTE基站的干扰以杂散干扰为主，需与相关运营商协商为干扰源安装滤波器，以减轻对LTE系统的干扰
+C. 修改干扰源设备参数。当干扰源是直放站或干放等放大设备时，可以修改其上下行增益，以改善自激，减轻对施主基站和周边基站的干扰
+D. 关闭干扰源
+你的答案：D正确答案：ABCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】在分析U-Plane Latency时，需要从以下几个方面考虑？
+已作答举报
+
+A. Ping sizes/Ping包的尺寸
+B. scheduling mode/调度模式
+C. radio conditions/无线环境
+D. UE locations in the cell/UE在小区中的位置
+你的答案：D正确答案：ABCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】发现干扰的常用手段有
+已作答举报
+
+A. 路测扫频
+B. 更换单板
+C. 性能监控
+D. 重启基站
+你的答案：D正确答案：AC
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】Share Cover指示了server cell和EUTRAN neighboring cell的位置关系，可以配置成
+已作答举报
+
+A. neighboring
+B. same coverage
+C. Containing
+D. Contained
+你的答案：C正确答案：ABCD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】C-Plane Latency也即状态转换时延，反映了控制面处理时间，是LTE提供”always on”功能的必要技术表征。NGMN定义了哪2种状态转换时延？
+已作答举报
+
+A. Idle <-> Suitable
+B. Idle <-> Active
+C. Acceptable <-> Active
+D. Dormant <-> Active
+你的答案：D正确答案：BD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【多选题】统计切换过程用户面中断时间需要考虑哪几方面因素？
+已作答举报
+
+A. 可区分有竞争冲突和无竞争冲突两种随机接入模式
+B. 可区分intra-Enb
+C. 可区分配置天线是单天线和双天线
+D. 可区分有data forwarding 和没有data forwarding 两种
+你的答案：D正确答案：ABD
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】适当降低IntraF Hysterisis，可以使切换更容易发生。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】基于覆盖的同频切换Intra-frequency Handover Strategy一般用A3或A5测量事件。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】通过基站侧log记录Paging次数作为寻呼尝试次数，同时记录收到的来自UE的RRC Connection request消息的次数，作为成功响应Paging的次数。
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】QCI的全称是QoS Class Identifier。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】CP Selection for Phsical Channel for Non MBSFN一般配置为extended cyclic prefix。
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】增大Number of Random Access Preambles，会增加接入冲突碰撞的次数。
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】增大Cell-specific Reference Signals Power，会增大小区的覆盖范围。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】Number of Candidate Cell是指“the selected numbers as handover candidate cell in the cell list of measurement report”。所以一般情况下，该参数值一定不能小于3。
+已作答举报
+
+对
+错
+你的答案：对正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】Average DL Cell MAC Throughput是指小区在MAC层的统计平均速率。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】Paging Success Time反映了UE响应寻呼的时延，LSTI定义为基站发出paging到收到RRCConnectionRequest消息的时间差。
+已作答举报
+
+对
+错
+你的答案：对正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】KPI的全称是Key Performance Indicator。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】Average User Number per QCI需要按照用户的QCI分别统计。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】RRC Reestablishment的成功率是这样计算的：RRCConnectionReestablishmentRequest的次数/RRCConnectionReestablishmentComplete的次数。该统计方法也有局限性。比如：eNodeB忽略了UE侧发起了RRCConnectionReestablishmentRequest而基站侧没有收到的情况（由于随机接入冲突等原因）。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】LTE系统20MHz的小区实际可使用100个PRB。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】UDP/FTPDL理论峰值要比MACDL理论峰值吞吐量大。
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】以12天为一个周期，统计这12天内所有ANR发现的邻区（无论终端是否添加为正式邻区）；并在周期结束时，对所发现的邻区进行优先级排序；根据邻区优先级，以及当前已存在的正式邻区关系配置，调整邻区添加门限
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】板间CA不支持跨BPL1和BPN0的CA
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】临时邻区是ANR自动优化功能的基础，通过对临时邻区的控制，来完成对整个邻区关系的添加控制。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】FDDLTE向EHRPD的非优化切换中，如果采用基于B2事件的方式，那么在整个非优化切换流程中，就不会出现A2事件
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】ANR功能包括邻区自添加功能和邻区自删除功能，ANR自添加发现新的邻区关系并加入到邻区关系列表中，ANR自删除功能将符合删除条件邻区关系从邻区关系表中去掉
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】LTE到UMTS的重选后，会伴随有RAU流程
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】从LTE向eHRPD的非优化切换，如果成功，那么可以观察到IP地址会发生变化
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】在进行NetworkAccessibility测试时，一种测试方式是在网络中随机选取N个采样点，在每个采样点分别进行手动和自动PLMN选择，尝试小区选择和注册。运营商Logo出现在UE侧，则认为成功，否则失败。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】对于ping包时延，可通过连接eNB的DEBUG口抓包进行分析
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】LTE和CDMA之间的语音互操作，主流是采用SVLTE的做法。协议中不存在1XCSFB的说法
+已作答举报
+
+对
+错
+你的答案：错正确答案：错
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】“关闭基于RSRQ的判决门限配置开关”的推荐设置是关闭
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】在CA载波聚合中，如果Scell发生RLF，不会触发RRC连接重建立
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】LTE向eHRPD的互操作需要配置邻区，且邻区数据可以通过ICM批量导入
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】开启ANR前，先检查现网小区最大邻区数、负载情况，当网络处于低负载状态，并且用户数量和切换次数很少，不能打开ANR自删除功能，避免小区间重要邻区关系因为没有发生过切换而被误删除
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】Speedtest是Ookla推出的一款可视化网速测试工具，其承载在ICMP协议之上
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】iper除了能灌UDP包，也可以灌TCP的包。
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】若eNB开通板间CA，则还需要额外配置CRO单板，且CRO的单板功能模式要配置成CloudRadio
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】基于测量的重定向使用A2事件触发测量，使用B2事件执行重定向
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】ANR的目的是减少运营商手工优化邻区关系的工作负荷
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】Bler的全称是BlockErrorRatio。
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】LTE系统中单小区的NumberOFRandomACCESSPreambles最多可配置64个
+已作答举报
+
+对
+错
+你的答案：对正确答案：对
+
+试题解析：
+
+
+用户解析(0)：收起 
+我要解析
+【判断题】在正常商用网络中，从LTE向eHRPD的互操作中，需要配置邻区，且现阶段建议设置为“不支持切换”
+举报
+
+对
+错
+【单选题】下述关于干扰的说法那一项是不正确的？
+举报
+
+A. 干扰的本质就是未按频率分配规定的信号占据了合法信号的频率，影响了合法信号的正常工作。
+B. 从干扰的技术特性分，干扰可分为杂散干扰
+C. 杂散干扰是指加于接收机的干扰功率很强，超出了接收机的线性范围，导致接收机因饱和而无法工作
+D. 互调干扰是指频率为F1和F2的两个信号经过非线性器件或传播媒介后出现的频率为F1和F2的和或差的新信号，主要有二阶
+【单选题】同频eNB间通过X2接口切换准备过程的成功概率是_____
+举报
+
+A. 源站统计eNodeB发出的Handover Request次数/源站收到的来自MME的Handover Command的次数
+B. 源站统计eNodeB发出的Handover Request次数/源站收到的来自目标站点的Handover Request Acknowledge次数
+C. 源站统计eNodeB发出的包含移动控制信息的RRC Reconfiguration/源站收到的来自MME的Handover Command的次数
+D. 源站统计eNodeB发出的包含移动控制信息的RRC Reconfiguration/源站收到的来自目标站点的Handover Request Acknowledge次数
+【单选题】在移动性管理中，如果不配置某个邻小区的小区个体偏移，那么Cell Individual Offset应该置为_____dB。
+举报
+
+A. -20
+B. 20
+C. 0
+D. 1
+【单选题】切换成功率反映了UE在小区间移动时信令以及至少一个_____业务连续的成功概率。
+举报
+
+A. GBR
+B. NonGBR
+C. VoIP
+D. MBR
+【单选题】对于PRACH信道，Format 0格式可配的Configuration Index有_____个。
+举报
+
+A. 16
+B. 64
+C. 32
+D. 128
+【单选题】对于LTE终端，一般情况下UE的发射功率默认配置是_____
+举报
+
+A. 43dBm
+B. 43mW
+C. 23mW
+D. 23dBm
+【单选题】LTE系统中Band 7频段下行频率范围是那一项？_____
+举报
+
+A. 925 MHz –960 MHz
+B. 1805 MHz –1880 MHz
+C. 2110 MHz –2170 MHz
+D. 2620 MHz –2690 MHz
+【单选题】Paging Success Time反映了UE响应寻呼的时延，LSTI定义为基站发出paging到收到_____消息的时间差。
+举报
+
+A. RRCConnectionSetupComplete
+B. RRCConnectionRequest
+C. Randonm Access Request
+D. RRC Reconfiguration Complete
+【单选题】UE侧认定基于竞争的随机接入成功次数是依据_____
+举报
+
+A. UE发出MSG3的次数
+B. UE收到MSG4的次数
+C. UE收到MSG2的次数
+D. UE发出MSG5的次数
+【单选题】如何统计同频、eNB间基于X2接口切出成功率？_____
+举报
+
+A. Source Cell侧统计X2接口接收到的UE Context Release次数/Source Cell向UE发送的RRCConnectionReconfiguration including mobilityControlInfo次数
+B. 源站统计eNodeB发出的Handover Request次数/源站收到的来自目标站点的Handover Request Acknowledge次数
+C. 源站统计eNodeB发出的包含移动控制信息的RRC Reconfiguration/源站收到的来自MME的Handover Command的次数
+D. 源站统计eNodeB发出的包含移动控制信息的RRC Reconfiguration/源站收到的来自目标站点的Handover Request Acknowledge次数
+【单选题】对于内部系统产生的干扰，常用解决措施不包括_____
+举报
+
+A. 检查天馈器件，对于松动的连接头，把他们拧紧，对于坏掉或者老化了的器件，进行更换
+B. 安排路测队伍排查干扰
+C. 修改频点，在共天馈系统中，由于2G一个小区可能采用多个频点，频点之间可能会互调产生干扰
+D. 如检查出是基站设备本身的问题的话，需更换相应基站设备组件
+【单选题】LTE系统中理想状态RSSI就是白噪声-174dBm/Hz，假设eNodeB的运行频带宽度为20MHz，再加上2dB 左右设备噪声系数，这样等效于eNodeB 基站的底噪RSSI=_____/20MHz，该值我们定义为正常状态的底噪。
+举报
+
+A. -174dBm
+B. -172dBm
+C. -141dBm
+D. -99.5dBm
+【单选题】关于三点干扰定位方法，下述说法不正确的是_____
+举报
+
+A. 简单来说就是三点定区域，逐次逼近的方法
+B. 三点干扰定位就是三个人在不同的三点同时进行干扰测试定位
+C. 三点定区域是指对于存在的干扰频点，利用泰克干扰频谱仪使用定向天线在干扰附近测试三点，确定干扰所在的区域
+D. 逐次逼近的方法是指在确定的干扰区域里，利用泰克干扰频谱仪使用定向天线按照仪器显示的干扰强度，多方向逐渐向干扰最强的位置逼近，最终发现干扰的方法
+【单选题】在进行NetworkAccessibility测试时，一种测试方式是在网络中随机选取N个采样点，在每个采样点分别进行手动和自动PLMN选择，尝试小区选择和注册。运营商Logo出现在（），则认为成功，否则失败。
+举报
+
+A. S-GW侧
+B. MME侧
+C. eNodeB侧
+D. UE侧
+【单选题】在LTE的速率问题排查时，其中有一项是核查物理层端口传输带宽，要求设置为
+举报
+
+A. 10M
+B. 100M
+C. 1000M
+D. 10000M
+【单选题】ping包应用的是基于IP协议上的
+举报
+
+A. ICMP
+B. TCP
+C. FTP
+D. HTTP
+【单选题】当前V3版本，我们ZTE网管ANR的处理能力说法正确的
+举报
+
+A. 单个EMS服务器最大能够处理的ANR优化数量为984条每小时
+B. 每天最大能够优化2万条邻区关系
+C. 处理能力还应考虑系统负载
+D. 单个EMS服务器最大能够处理的ANR优化数量为400条每小时
+【单选题】下列那个不属于ANR自学习的子功能
+举报
+
+A. 同频/异频ANR邻区记忆功能
+B. 同频/异频ANR邻区添加门限自优化功能
+C. ANR自动修改邻区错误信息
+D. 基于X2的邻区互配
+【单选题】如果服务小区的“小区选择所需要的最小RSRP接收水平”为-120dBm，sNintraSrchPre（是否配置Snonintrasearch）配置为1，Snonontreach（同/低优先级RSRP测量判决门限(dB)设置为30，那么实际上对于R8终端，其启动同/低优先级测量的RSRP门限为多少dBm？
+举报
+
+A. -120
+B. -91
+C. -89
+D. -90
+【单选题】在测量报告消息中上报的RSRQresult = 3，表明RSRQ的实际值范围为_____
+举报
+
+A. -19 <= RSRQ < -18.5
+B. -18.5 <= RSRQ < -18
+C. -3.5 <= RSRQ < -3
+D. -3 <= RSRQ
+【单选题】在哪种状态下，eNB会一直保存UE Radio Capability信息？_____
+举报
+
+A. RRC Idle
+B. RRC Connected
+C. RRC Release
+D. detach
+【单选题】LTE系统内的切换，通常在_____（时间）内完成。
+举报
+
+A. < 100ms
+B. 100 - 200ms
+C. 300 - 500ms
+D. 500 - 1000ms
+【单选题】在测量报告消息中，最多可以上报_____个小区的测量结果。
+举报
+
+A. 4
+B. 8
+C. 16
+D. 32
+【单选题】随机接入过程中从哪个消息开始可以有HARQ重传？_____
+举报
+
+A. Random Access Request
+B. Random Access Response
+C. RRC Connection Request
+D. RRC Connection Setup
+【单选题】切换过程中的“重配置完成”消息是由（1）_____发给（2）_____的。
+举报
+
+A. (1). UE; (2). Source eNB
+B. (1).UE; (2).Target eNB
+C. (1). Source eNB; (2).UE
+D. (1).Target eNB; (2).UE
+【单选题】当UE上报次数达到_____指定的次数时，即使测量量继续满足该事件的触发门限，UE也不再向eNB上报测量结果。
+举报
+
+A. Amount of Reporting for event
+B. Reporting interval for periodical
+C. A5 Threshold2 for RSR
+D. Reporting interval for event
+【单选题】在开机附着过程中RRC重配消息丢失或者没收到RRC重配完成消息或者eNB内部配置UE的安全参数等失败，那么eNB会通知_____初始上下文建立失败。
+举报
+
+A. UE
+B. MME
+C. S-GW
+D. PDN
+【单选题】初始附着时eNB收到UE随机接入请求消息会建立_____
+举报
+
+A. SRB0
+B. SRB1
+C. SRB2
+D. DRB
+【单选题】UE在IDLE模式下，当网络需要给该UE发送数据（业务或者信令）时，发起_____过程。
+举报
+
+A. 小区选择
+B. RRC重建立
+C. 随机接入
+D. 寻呼
+【单选题】当attach成功，建立一个专用承载后，如果RRC连接释放进入了IDLE，下次UE发起数据时会发起_____
+举报
+
+A. Attach
+B. 寻呼
+C. service request
+D. detach
+【单选题】如果MME在INITIAL CONTEXT SETUP REQUEST消息中没有带UE无线能力信息，这会触发E-TURAN向_____请求UE无线能力信息。
+举报
+
+A. UE
+B. eNodeB
+C. MME
+D. S-GW
+【单选题】专用承载修改不可以由_____主动发起。
+举报
+
+A. UE
+B. eNodeB
+C. MME
+D. S-GW
+【单选题】PRACH信道的时域位置由_____决定的。
+举报
+
+A. PRACH Configuration Index
+B. Preamble Format
+C. RA-RNTI
+D. Ncs
+【单选题】T310定时器在_____的时候启动。
+举报
+
+A. 收到N310个连续的失步指示
+B. 收到收到Reception of RRCConnectionReject
+C. 收到N311个连续的失步指示
+D. 收到RRCHandoverFailure
+【单选题】ICIC方案主要通过_____来区分中心和边缘用户。
+举报
+
+A. 本小区路损
+B. 邻小区路损
+C. 本邻小区路损差
+D. 接收SNR
+【单选题】当前版本中，当eNB同时配置了S1口和X2口时，_____口切换。
+举报
+
+A. 优先执行S1
+B. 优先执行X2
+C. 随机选择S1或者X2
+D. 同时执行S1和X2
+【单选题】LTE FDD中，B1事件是指_____
+举报
+
+A. 服务区小区好于门限
+B. 异系统邻区好于门限
+C. 邻区好于服务小区一个偏置
+D. 服务小区差于门限1，且异系统邻区好于门限2
+【单选题】在测量报告消息中上报的RSRPresult = 95，表明RSRP的实际值范围为_____
+举报
+
+A. RSRP 大于等于 -46 并且 小于 -45
+B. RSRP 大于等于 -48 并且 小于 -47.5
+C. RSRP 大于等于 -47.5 并且 小于 -47
+D. 以上都不对
+【单选题】根据协议，计数器N310的默认值为_____
+举报
+
+A. n1
+B. n2
+C. n3
+D. n4
+【单选题】T304定时器在_____的时候启动。
+举报
+
+A. 收到RRCConnectionReconfiguratio
+B. 收到收到Reception of RRCConnectionReject
+C. 发送RRCConnectionRequest
+D. 收到RRCHandoverFailure
+【单选题】如果配置300个小区的邻区，在目前的OMC版本下，使用哪种方法最快？_____
+举报
+
+A. 使用邻区配置工具
+B. 直接在界面中配置
+C. 使用批量导入
+D. 使用命令行
+【单选题】在对地下交通（地铁）的覆盖进行PCI规划时候，其使用的PCI通常是和下述哪种场景的PCI复用？
+举报
+
+A. 室外宏基站
+B. 室分
+C. 高铁
+D. 超远覆盖
+【单选题】在网络建设初始阶段，什么方式或工具来规划PRACH参数最为简便直接
+举报
+
+A. PCI映射法
+B. CNO-L
+C. NETMAX-L
+D. MAPINFO
+【单选题】LTE中用于关闭异频或者异系统测量的是哪种事件？
+举报
+
+A. A1
+B. A2
+C. A3
+D. A4
+【单选题】频谱扫描功能可用来评估反向是否存在干扰，该功能在网管的___管理模块中
+举报
+
+A. 动态管理
+B. 诊断测试
+C. 配置管理
+D. 统一数据跟踪
+【单选题】对于覆盖问题导致掉话的常见优化手段，说法不正确的是
+举报
+
+A. 排除主覆盖小区的硬件故障
+B. 上调主覆盖小区的RS功率
+C. 调整主覆盖区的天线下倾角
+D. 开启SONANR
+【单选题】rrcConnectionReestablishmentRequest消息中的cause值总共有几种
+举报
+
+A. 1
+B. 2
+C. 3
+D. 4
+Next
+
+【判断题】在正常商用网络中，从LTE向eHRPD的互操作中，需要配置邻区，且现阶段建议设置为“不支持切换”
+已作答举报
+
+对
+错
+你的答案：错正确答案：对
+【单选题】下述关于干扰的说法那一项是不正确的？
+已作答举报
+
+A. 干扰的本质就是未按频率分配规定的信号占据了合法信号的频率，影响了合法信号的正常工作。
+B. 从干扰的技术特性分，干扰可分为杂散干扰
+C. 杂散干扰是指加于接收机的干扰功率很强，超出了接收机的线性范围，导致接收机因饱和而无法工作
+D. 互调干扰是指频率为F1和F2的两个信号经过非线性器件或传播媒介后出现的频率为F1和F2的和或差的新信号，主要有二阶
+你的答案：B正确答案：C
+
+【单选题】同频eNB间通过X2接口切换准备过程的成功概率是_____
+已作答举报
+
+A. 源站统计eNodeB发出的Handover Request次数/源站收到的来自MME的Handover Command的次数
+B. 源站统计eNodeB发出的Handover Request次数/源站收到的来自目标站点的Handover Request Acknowledge次数
+C. 源站统计eNodeB发出的包含移动控制信息的RRC Reconfiguration/源站收到的来自MME的Handover Command的次数
+D. 源站统计eNodeB发出的包含移动控制信息的RRC Reconfiguration/源站收到的来自目标站点的Handover Request Acknowledge次数
+你的答案：B正确答案：B
+【单选题】在移动性管理中，如果不配置某个邻小区的小区个体偏移，那么Cell Individual Offset应该置为_____dB。
+已作答举报
+
+A. -20
+B. 20
+C. 0
+D. 1
+你的答案：A正确答案：C
+【单选题】切换成功率反映了UE在小区间移动时信令以及至少一个_____业务连续的成功概率。
+已作答举报
+
+A. GBR
+B. NonGBR
+C. VoIP
+D. MBR
+你的答案：A正确答案：B
+【单选题】对于PRACH信道，Format 0格式可配的Configuration Index有_____个。
+已作答举报
+
+A. 16
+B. 64
+C. 32
+D. 128
+你的答案：A正确答案：A
+【单选题】对于LTE终端，一般情况下UE的发射功率默认配置是_____
+已作答举报
+
+A. 43dBm
+B. 43mW
+C. 23mW
+D. 23dBm
+你的答案：B正确答案：D
+【单选题】LTE系统中Band 7频段下行频率范围是那一项？_____
+已作答举报
+
+A. 925 MHz –960 MHz
+B. 1805 MHz –1880 MHz
+C. 2110 MHz –2170 MHz
+D. 2620 MHz –2690 MHz
+你的答案：A正确答案：D
+单选题】Paging Success Time反映了UE响应寻呼的时延，LSTI定义为基站发出paging到收到_____消息的时间差。
+已作答举报
+
+A. RRCConnectionSetupComplete
+B. RRCConnectionRequest
+C. Randonm Access Request
+D. RRC Reconfiguration Complete
+你的答案：A正确答案：A
+【单选题】UE侧认定基于竞争的随机接入成功次数是依据_____
+已作答举报
+
+A. UE发出MSG3的次数
+B. UE收到MSG4的次数
+C. UE收到MSG2的次数
+D. UE发出MSG5的次数
+你的答案：A正确答案：B
+【单选题】如何统计同频、eNB间基于X2接口切出成功率？_____
+已作答举报
+
+A. Source Cell侧统计X2接口接收到的UE Context Release次数/Source Cell向UE发送的RRCConnectionReconfiguration including mobilityControlInfo次数
+B. 源站统计eNodeB发出的Handover Request次数/源站收到的来自目标站点的Handover Request Acknowledge次数
+C. 源站统计eNodeB发出的包含移动控制信息的RRC Reconfiguration/源站收到的来自MME的Handover Command的次数
+D. 源站统计eNodeB发出的包含移动控制信息的RRC Reconfiguration/源站收到的来自目标站点的Handover Request Acknowledge次数
+你的答案：A正确答案：A
+【单选题】对于内部系统产生的干扰，常用解决措施不包括_____
+已作答举报
+
+A. 检查天馈器件，对于松动的连接头，把他们拧紧，对于坏掉或者老化了的器件，进行更换
+B. 安排路测队伍排查干扰
+C. 修改频点，在共天馈系统中，由于2G一个小区可能采用多个频点，频点之间可能会互调产生干扰
+D. 如检查出是基站设备本身的问题的话，需更换相应基站设备组件
+你的答案：B正确答案：B
+【单选题】LTE系统中理想状态RSSI就是白噪声-174dBm/Hz，假设eNodeB的运行频带宽度为20MHz，再加上2dB 左右设备噪声系数，这样等效于eNodeB 基站的底噪RSSI=_____/20MHz，该值我们定义为正常状态的底噪。
+已作答举报
+
+A. -174dBm
+B. -172dBm
+C. -141dBm
+D. -99.5dBm
+你的答案：A正确答案：D
+【单选题】关于三点干扰定位方法，下述说法不正确的是_____
+已作答举报
+
+A. 简单来说就是三点定区域，逐次逼近的方法
+B. 三点干扰定位就是三个人在不同的三点同时进行干扰测试定位
+C. 三点定区域是指对于存在的干扰频点，利用泰克干扰频谱仪使用定向天线在干扰附近测试三点，确定干扰所在的区域
+D. 逐次逼近的方法是指在确定的干扰区域里，利用泰克干扰频谱仪使用定向天线按照仪器显示的干扰强度，多方向逐渐向干扰最强的位置逼近，最终发现干扰的方法
+你的答案：A正确答案：B
+【单选题】在进行NetworkAccessibility测试时，一种测试方式是在网络中随机选取N个采样点，在每个采样点分别进行手动和自动PLMN选择，尝试小区选择和注册。运营商Logo出现在（），则认为成功，否则失败。
+已作答举报
+
+A. S-GW侧
+B. MME侧
+C. eNodeB侧
+D. UE侧
+你的答案：A正确答案：D
+【单选题】在LTE的速率问题排查时，其中有一项是核查物理层端口传输带宽，要求设置为
+已作答举报
+
+A. 10M
+B. 100M
+C. 1000M
+D. 10000M
+你的答案：B正确答案：C
+【单选题】ping包应用的是基于IP协议上的
+已作答举报
+
+A. ICMP
+B. TCP
+C. FTP
+D. HTTP
+你的答案：B正确答案：A
+【单选题】当前V3版本，我们ZTE网管ANR的处理能力说法正确的
+已作答举报
+
+A. 单个EMS服务器最大能够处理的ANR优化数量为984条每小时
+B. 每天最大能够优化2万条邻区关系
+C. 处理能力还应考虑系统负载
+D. 单个EMS服务器最大能够处理的ANR优化数量为400条每小时
+你的答案：C正确答案：C
+【单选题】下列那个不属于ANR自学习的子功能
+已作答举报
+
+A. 同频/异频ANR邻区记忆功能
+B. 同频/异频ANR邻区添加门限自优化功能
+C. ANR自动修改邻区错误信息
+D. 基于X2的邻区互配
+你的答案：D正确答案：C
+【单选题】如果服务小区的“小区选择所需要的最小RSRP接收水平”为-120dBm，sNintraSrchPre（是否配置Snonintrasearch）配置为1，Snonontreach（同/低优先级RSRP测量判决门限(dB)设置为30，那么实际上对于R8终端，其启动同/低优先级测量的RSRP门限为多少dBm？
+已作答举报
+
+A. -120
+B. -91
+C. -89
+D. -90
+你的答案：C正确答案：D
+【单选题】在测量报告消息中上报的RSRQresult = 3，表明RSRQ的实际值范围为_____
+已作答举报
+
+A. -19 <= RSRQ < -18.5
+B. -18.5 <= RSRQ < -18
+C. -3.5 <= RSRQ < -3
+D. -3 <= RSRQ
+你的答案：D正确答案：B
+【单选题】在哪种状态下，eNB会一直保存UE Radio Capability信息？_____
+已作答举报
+
+A. RRC Idle
+B. RRC Connected
+C. RRC Release
+D. detach
+你的答案：C正确答案：B
+【单选题】LTE系统内的切换，通常在_____（时间）内完成。
+已作答举报
+
+A. < 100ms
+B. 100 - 200ms
+C. 300 - 500ms
+D. 500 - 1000ms
+你的答案：C正确答案：B
+【单选题】在测量报告消息中，最多可以上报_____个小区的测量结果。
+已作答举报
+
+A. 4
+B. 8
+C. 16
+D. 32
+你的答案：C正确答案：B
+【单选题】随机接入过程中从哪个消息开始可以有HARQ重传？_____
+已作答举报
+
+A. Random Access Request
+B. Random Access Response
+C. RRC Connection Request
+D. RRC Connection Setup
+你的答案：C正确答案：C
+【单选题】切换过程中的“重配置完成”消息是由（1）_____发给（2）_____的。
+已作答举报
+
+A. (1). UE; (2). Source eNB
+B. (1).UE; (2).Target eNB
+C. (1). Source eNB; (2).UE
+D. (1).Target eNB; (2).UE
+你的答案：C正确答案：B
+【单选题】当UE上报次数达到_____指定的次数时，即使测量量继续满足该事件的触发门限，UE也不再向eNB上报测量结果。
+已作答举报
+
+A. Amount of Reporting for event
+B. Reporting interval for periodical
+C. A5 Threshold2 for RSR
+D. Reporting interval for event
+你的答案：C正确答案：A
+【单选题】在开机附着过程中RRC重配消息丢失或者没收到RRC重配完成消息或者eNB内部配置UE的安全参数等失败，那么eNB会通知_____初始上下文建立失败。
+已作答举报
+
+A. UE
+B. MME
+C. S-GW
+D. PDN
+你的答案：D正确答案：B
+【单选题】初始附着时eNB收到UE随机接入请求消息会建立_____
+已作答举报
+
+A. SRB0
+B. SRB1
+C. SRB2
+D. DRB
+你的答案：D正确答案：A
+【单选题】UE在IDLE模式下，当网络需要给该UE发送数据（业务或者信令）时，发起_____过程。
+已作答举报
+
+A. 小区选择
+B. RRC重建立
+C. 随机接入
+D. 寻呼
+你的答案：D正确答案：D
+
+【单选题】如果MME在INITIAL CONTEXT SETUP REQUEST消息中没有带UE无线能力信息，这会触发E-TURAN向_____请求UE无线能力信息。
+已作答举报
+
+A. UE
+B. eNodeB
+C. MME
+D. S-GW
+你的答案：C正确答案：A
+【单选题】专用承载修改不可以由_____主动发起。
+已作答举报
+
+A. UE
+B. eNodeB
+C. MME
+D. S-GW
+你的答案：C正确答案：B
+【单选题】PRACH信道的时域位置由_____决定的。
+已作答举报
+
+A. PRACH Configuration Index
+B. Preamble Format
+C. RA-RNTI
+D. Ncs
+你的答案：B正确答案：A
+【单选题】T310定时器在_____的时候启动。
+已作答举报
+
+A. 收到N310个连续的失步指示
+B. 收到收到Reception of RRCConnectionReject
+C. 收到N311个连续的失步指示
+D. 收到RRCHandoverFailure
+你的答案：D正确答案：A
+【单选题】ICIC方案主要通过_____来区分中心和边缘用户。
+已作答举报
+
+A. 本小区路损
+B. 邻小区路损
+C. 本邻小区路损差
+D. 接收SNR
+你的答案：D正确答案：C
+【单选题】当前版本中，当eNB同时配置了S1口和X2口时，_____口切换。
+已作答举报
+
+A. 优先执行S1
+B. 优先执行X2
+C. 随机选择S1或者X2
+D. 同时执行S1和X2
+你的答案：D正确答案：B
+【单选题】LTE FDD中，B1事件是指_____
+已作答举报
+
+A. 服务区小区好于门限
+B. 异系统邻区好于门限
+C. 邻区好于服务小区一个偏置
+D. 服务小区差于门限1，且异系统邻区好于门限2
+你的答案：C正确答案：B
+【单选题】在测量报告消息中上报的RSRPresult = 95，表明RSRP的实际值范围为_____
+已作答举报
+
+A. RSRP 大于等于 -46 并且 小于 -45
+B. RSRP 大于等于 -48 并且 小于 -47.5
+C. RSRP 大于等于 -47.5 并且 小于 -47
+D. 以上都不对
+你的答案：D正确答案：A
