@@ -7,7 +7,7 @@ url = r"http://10.25.225.89:8089/carrier/sameCover/interface/countBalances"
 # day = "2021-08-30"
 
 
-def kanban_req(day, url):
+def kanban_req(day, url=url):
     params = {
         "day": day,
         "city": "",
