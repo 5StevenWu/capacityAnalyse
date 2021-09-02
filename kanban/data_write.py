@@ -43,5 +43,6 @@ def req_all():
 
 
 if __name__ == '__main__':
+    print("\r\n\r\n")
     print("爬取解析最终总结果:\t%s" % str(req_all()))
     # print(2)
