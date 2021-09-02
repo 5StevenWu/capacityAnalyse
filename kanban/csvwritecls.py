@@ -6,13 +6,17 @@
 from datetime import datetime, timedelta
 
 day = datetime.now().strftime("%Y-%m-%d")
-yday = datetime.now() + timedelta(days=-1)
+rightday = datetime.now() + timedelta(days=-3)
+# 必须是周一  非周一适量调整timedelta
+print ("本周一是:", rightday.strftime("%Y-%m-%d"))
 
-monday = datetime.now() + timedelta(days=-7)
-tuesday = datetime.now() + timedelta(days=-6)
-wednesday = datetime.now() + timedelta(days=-5)
-thursday = datetime.now() + timedelta(days=-4)
-friday = datetime.now() + timedelta(days=-3)
-saturday = datetime.now() + timedelta(days=-2)
-sunday = datetime.now() + timedelta(days=-1)
-print(day, yday)
+monday = (rightday + timedelta(days=-7)).strftime("%Y-%m-%d")
+tuesday = (rightday + timedelta(days=-6)).strftime("%Y-%m-%d")
+wednesday = (rightday + timedelta(days=-5)).strftime("%Y-%m-%d")
+thursday = (rightday + timedelta(days=-4)).strftime("%Y-%m-%d")
+friday = (rightday + timedelta(days=-3)).strftime("%Y-%m-%d")
+saturday = (rightday + timedelta(days=-2)).strftime("%Y-%m-%d")
+sunday = (rightday + timedelta(days=-1)).strftime("%Y-%m-%d")
+
+week = [monday, tuesday, wednesday, thursday, friday, saturday, sunday]
+print (week)
