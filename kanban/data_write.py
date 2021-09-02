@@ -8,6 +8,7 @@ from kanban.data_ana import realtimebalance
 
 ret = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ret)
+print("环境变量信息:%s" % sys)
 
 
 def week():

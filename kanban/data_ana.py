@@ -11,8 +11,8 @@ def realtimebalance(res, updatetime, beforeDay):
     {'LoadbalanceData': [580, '0.99%', 79, '15.77%', 41, '57.75%', 41, '39.02%'],
     'samecoverdata': [1698, 1875, 1030, '54.93%', 843, '49.65%', 3442, '96.78%']}
     '''
-    print(res,"\r\n时间:",updatetime,beforeDay)
-    #取水平面  取垂直平面
+    print(res, "\r\n时间:", updatetime, beforeDay)
+    # 取水平面  取垂直平面
     LoadbalanceDataCount_Y = res.get("LoadbalanceDataCount_Y")
     SamecoverDataCount = res.get("SamecoverDataCount")
 
@@ -53,12 +53,12 @@ def realtimebalance(res, updatetime, beforeDay):
           alllogs, "%.2f%%" % (daylogs_successRate * 100),
           )
 
-    #水平面数据
+    # 水平面数据
     loadbalancedata = {"LoadbalanceData": [unbalances_one, "%.2f%%" % (unbalances_one / samecoverxiaoqus_one * 100),
                                            adjusteds, "%.2f%%" % (adjusteds / unbalances * 100),
                                            finished, "%.2f%%" % (finishedRate * 100),
                                            alllogs, "%.2f%%" % (daylogs_successRate * 100), ]}
-    everydaydata_dic.update(loadbalancedata)  #添加到返回数据字典
+    everydaydata_dic.update(loadbalancedata)  # 添加到返回数据字典
 
     countxiaoqu = 0
     countlimit = 0
@@ -98,13 +98,11 @@ def realtimebalance(res, updatetime, beforeDay):
         "samecoverdata": [countxiaoqu, countadjust, countback, "%.2f%%" % (countback / countadjust * 100), countyx,
                           "%.2f%%" % (countyx / countxiaoqu * 100), countlogs,
                           "%.2f%%" % (countsuccesslogs / countlogs * 100), ]}
-    everydaydata_dic.update(samecoverdata)  #添加到返回字典中
+    everydaydata_dic.update(samecoverdata)  # 添加到返回字典中
     return everydaydata_dic
 
 
 if __name__ == '__main__':
-
-
     res = {'LoadbalanceDataCount_Y': [
         {'countxiaoqu': 418, 'countlimit': 0, 'countyx': 149, 'countadjust': 647, 'countlogs': 759,
          'countsuccesslogs': 756,
