@@ -2,6 +2,17 @@
 
 
 def realtimebalance(res, updatetime, beforeDay):
+    '''
+
+    :param res: 原始数据字典
+    :param updatetime: 数据当天日期
+    :param beforeDay: 前一天
+    :return: 对应页面2行数据信息
+    {'LoadbalanceData': [580, '0.99%', 79, '15.77%', 41, '57.75%', 41, '39.02%'],
+    'samecoverdata': [1698, 1875, 1030, '54.93%', 843, '49.65%', 3442, '96.78%']}
+    '''
+
+    #取水平面  取垂直平面
     LoadbalanceDataCount_Y = res.get("LoadbalanceDataCount_Y")
     SamecoverDataCount = res.get("SamecoverDataCount")
 
@@ -41,11 +52,13 @@ def realtimebalance(res, updatetime, beforeDay):
           finished, "%.2f%%" % (finishedRate * 100),
           alllogs, "%.2f%%" % (daylogs_successRate * 100),
           )
+
+    #水平面数据
     loadbalancedata = {"LoadbalanceData": [unbalances_one, "%.2f%%" % (unbalances_one / samecoverxiaoqus_one * 100),
                                            adjusteds, "%.2f%%" % (adjusteds / unbalances * 100),
                                            finished, "%.2f%%" % (finishedRate * 100),
                                            alllogs, "%.2f%%" % (daylogs_successRate * 100), ]}
-    everydaydata_dic.update(loadbalancedata)
+    everydaydata_dic.update(loadbalancedata)  #添加到返回数据字典
 
     countxiaoqu = 0
     countlimit = 0
@@ -85,7 +98,7 @@ def realtimebalance(res, updatetime, beforeDay):
         "samecoverdata": [countxiaoqu, countadjust, countback, "%.2f%%" % (countback / countadjust * 100), countyx,
                           "%.2f%%" % (countyx / countxiaoqu * 100), countlogs,
                           "%.2f%%" % (countsuccesslogs / countlogs * 100), ]}
-    everydaydata_dic.update(samecoverdata)
+    everydaydata_dic.update(samecoverdata)  #添加到返回字典中
     return everydaydata_dic
 
 
@@ -339,6 +352,7 @@ if __name__ == '__main__':
 
     """
 
+"""
 {'countxiaoqu': 418, 'countlimit': 0, 'countyx': 149, 'countadjust': 647, 'countlogs': 759, 'countsuccesslogs': 756,
  'city': '咸宁市', 'updatetime': '2021-08-29', 'countback': 49, 'id': 1221}
 {'countxiaoqu': 129, 'countlimit': 0, 'countyx': 110, 'countadjust': 218, 'countlogs': 469, 'countsuccesslogs': 469,
@@ -388,4 +402,5 @@ if __name__ == '__main__':
 {'countxiaoqu': 61, 'countlimit': 0, 'countyx': 53, 'countadjust': 93, 'countlogs': 200, 'countsuccesslogs': 200,
  'city': '随州市', 'updatetime': '2021-08-30', 'countback': 87, 'id': 1248}
 
+"""
 # Process finished with exit code 0
