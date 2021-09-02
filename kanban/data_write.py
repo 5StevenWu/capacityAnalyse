@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 
+import os, sys
 from kanban.data_req import kanban_req
 from kanban.data7 import day7
 from datetime import datetime, timedelta
+
+ret = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ret)
 
 
 def week():
@@ -28,4 +32,5 @@ def req_all():
     return req_all
 
 
-print(req_all)
+if __name__ == '__main__':
+    print(req_all)
