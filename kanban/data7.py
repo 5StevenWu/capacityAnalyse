@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 
 def  day7(rightday):
 
-
+    lastsunday=(rightday + timedelta(days=-8)).strftime("%Y-%m-%d")
     monday = (rightday + timedelta(days=-7)).strftime("%Y-%m-%d")
     tuesday = (rightday + timedelta(days=-6)).strftime("%Y-%m-%d")
     wednesday = (rightday + timedelta(days=-5)).strftime("%Y-%m-%d")
@@ -16,6 +16,6 @@ def  day7(rightday):
     saturday = (rightday + timedelta(days=-2)).strftime("%Y-%m-%d")
     sunday = (rightday + timedelta(days=-1)).strftime("%Y-%m-%d")
 
-    week = [monday, tuesday, wednesday, thursday, friday, saturday, sunday]
+    week = [lastsunday,monday, tuesday, wednesday, thursday, friday, saturday, sunday]
     print(week)
     return week

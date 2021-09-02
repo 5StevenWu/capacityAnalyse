@@ -11,7 +11,7 @@ def realtimebalance(res, updatetime, beforeDay):
     {'LoadbalanceData': [580, '0.99%', 79, '15.77%', 41, '57.75%', 41, '39.02%'],
     'samecoverdata': [1698, 1875, 1030, '54.93%', 843, '49.65%', 3442, '96.78%']}
     '''
-
+    print(res,"\r\n时间:",updatetime,beforeDay)
     #取水平面  取垂直平面
     LoadbalanceDataCount_Y = res.get("LoadbalanceDataCount_Y")
     SamecoverDataCount = res.get("SamecoverDataCount")
