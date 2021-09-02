@@ -39,7 +39,7 @@ def req_all():
         # print(one_day_data)
         one_day_data = realtimebalance(one_day_data, day7[d + 1], day7[d])  # 解析数据
         req_lst.append({day7[d + 1]: one_day_data})  # 添加到列表
-        return req_lst
+    return req_lst
 
 
 if __name__ == '__main__':
