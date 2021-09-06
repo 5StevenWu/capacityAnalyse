@@ -43,19 +43,21 @@ def realtimebalance(res, updatetime, beforeDay):
         elif S.get("updatetime") == beforeDay:
             unbalances_1_y += S.get("unbalances_1")
 
-    finishedRate = finished / unbalances_1_y  # 垂直均衡闭环(闭环占比)
-    daylogs_successRate = successlogs / alllogs  # 垂直面均衡工单执行情况(成功率)
+    finishedRate = finished / unbalances_1_y if unbalances_1_y != 0 else 0  # 垂直均衡闭环(闭环占比)
+    daylogs_successRate = successlogs / alllogs if alllogs != 0 else 0  # 垂直面均衡工单执行情况(成功率)
 
     # 对应前端垂直平面第一行8条数据
-    print(unbalances_one, "%.2f%%" % (unbalances_one / samecoverxiaoqus_one * 100),
-          adjusteds, "%.2f%%" % (adjusteds / unbalances * 100),
-          finished, "%.2f%%" % (finishedRate * 100),
-          alllogs, "%.2f%%" % (daylogs_successRate * 100),
-          )
+    # print(unbalances_one, "%.2f%%" % (unbalances_one / samecoverxiaoqus_one * 100),
+    #       adjusteds, "%.2f%%" % (adjusteds / unbalances * 100),
+    #       finished, "%.2f%%" % (finishedRate * 100),
+    #       alllogs, "%.2f%%" % (daylogs_successRate * 100),
+    #       )
 
     # 水平面数据
-    loadbalancedata = {"LoadbalanceData": [unbalances_one, "%.2f%%" % (unbalances_one / samecoverxiaoqus_one * 100),
-                                           adjusteds, "%.2f%%" % (adjusteds / unbalances * 100),
+    loadbalancedata = {"LoadbalanceData": [unbalances_one, "%.2f%%" % (
+                (unbalances_one / samecoverxiaoqus_one if samecoverxiaoqus_one != 0 else 0) * 100),
+                                           adjusteds,
+                                           "%.2f%%" % ((adjusteds / unbalances if unbalances != 0 else 0) * 100),
                                            finished, "%.2f%%" % (finishedRate * 100),
                                            alllogs, "%.2f%%" % (daylogs_successRate * 100), ]}
     everydaydata_dic.update(loadbalancedata)  # 添加到返回数据字典
@@ -80,24 +82,25 @@ def realtimebalance(res, updatetime, beforeDay):
             countadjust += L.get("countadjust")
         # print(L.get("countxiaoqu"))
 
-    print(
-        "水平面均衡优化高负荷小区数\t", countxiaoqu,
-        "\n邻区对数\t", countadjust,
-
-        "\n水平面均衡回调\t", countback,
-        "\n回调占比\t", "%.2f%%" % (countback / countadjust * 100),
-
-        "\n水平面均衡有效情况\t", countyx,
-        "\n有效率\t", "%.2f%%" % (countyx / countxiaoqu * 100),
-
-        "\n水平面均衡工单执行情况\t", countlogs,
-        "\n成功率\t", "%.2f%%" % (countsuccesslogs / countlogs * 100),
-
-    )
+    # print(
+    #     "水平面均衡优化高负荷小区数\t", countxiaoqu,
+    #     "\n邻区对数\t", countadjust,
+    #
+    #     "\n水平面均衡回调\t", countback,
+    #     "\n回调占比\t", "%.2f%%" % (countback / countadjust * 100),
+    #
+    #     "\n水平面均衡有效情况\t", countyx,
+    #     "\n有效率\t", "%.2f%%" % (countyx / countxiaoqu * 100),
+    #
+    #     "\n水平面均衡工单执行情况\t", countlogs,
+    #     "\n成功率\t", "%.2f%%" % (countsuccesslogs / countlogs * 100),
+    #
+    # )
     samecoverdata = {
-        "samecoverdata": [countxiaoqu, countadjust, countback, "%.2f%%" % (countback / countadjust * 100), countyx,
-                          "%.2f%%" % (countyx / countxiaoqu * 100), countlogs,
-                          "%.2f%%" % (countsuccesslogs / countlogs * 100), ]}
+        "samecoverdata": [countxiaoqu, countadjust, countback,
+                          "%.2f%%" % ((countback / countadjust if countadjust != 0 else 0) * 100), countyx,
+                          "%.2f%%" % ((countyx / countxiaoqu if countxiaoqu != 0 else 0) * 100), countlogs,
+                          "%.2f%%" % ((countsuccesslogs / countlogs if countlogs != 0 else 0) * 100), ]}
     everydaydata_dic.update(samecoverdata)  # 添加到返回字典中
     return everydaydata_dic
 

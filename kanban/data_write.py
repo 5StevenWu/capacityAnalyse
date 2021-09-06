@@ -19,7 +19,7 @@ def week():
     :return:
     '''
     day = datetime.now().strftime("%Y-%m-%d")
-    rightday = datetime.now() + timedelta(days=-3)
+    rightday = datetime.now() + timedelta(days=-0)
     # 必须是周一  非周一适量调整timedelta
     print("本周一是:", rightday.strftime("%Y-%m-%d"))
     return dayseven(rightday)
