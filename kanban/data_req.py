@@ -7,15 +7,15 @@ url = r"http://10.25.225.89:8089/carrier/sameCover/interface/countBalances"
 # day = "2021-08-30"
 
 
-def kanban_req(day, url=url):
-    params = {
-        "day": day,
-        "city": "",
-    }
-    res = requests.post(url, params).text
-    res = json.loads(res)
-    return res
-""" 测试函数
+# def kanban_req(day, url=url):
+#     params = {
+#         "day": day,
+#         "city": "",
+#     }
+#     res = requests.post(url, params).text
+#     res = json.loads(res)
+#     return res
+#""" 测试函数
 def kanban_req(day, url=url):
     params = {
         "day": day,
@@ -262,7 +262,7 @@ def kanban_req(day, url=url):
          'samecoverxiaoqus_one': 2358,
          'countyx_1': 0, 'city': '黄石市', 'updatetime': '2021-08-30', 'id': 1561}]}
     return res
-"""
+#"""
 # print(res)
 # LoadbalanceDataCount_Y = res.get("LoadbalanceDataCount_Y")
 # SamecoverDataCount = res.get("SamecoverDataCount")
