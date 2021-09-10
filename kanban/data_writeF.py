@@ -12,8 +12,6 @@ from kanban.data7 import day7 as dayseven
 from kanban.data_ana import realtimebalance
 
 
-
-
 def week():
     '''
     :return:
@@ -33,8 +31,8 @@ req_lst = []
 def req_all():
     for d in range(len(day7) - 1):  # 从上上周日开始循环
         # print(day7[d+1])
-        #if day7[d + 1] == '2021-08-29':
-            # print("开始进行%s的数据处理" % str(day7[d + 1]), str(day7[d]))  # 默认day为前一天
+        # if day7[d + 1] == '2021-08-29':
+        # print("开始进行%s的数据处理" % str(day7[d + 1]), str(day7[d]))  # 默认day为前一天
         one_day_data = kanban_req(day7[d + 1])  # 爬取数据
         # print(one_day_data)
         one_day_data = realtimebalance(one_day_data, day7[d + 1], day7[d])  # 解析数据

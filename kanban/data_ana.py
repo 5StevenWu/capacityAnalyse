@@ -55,7 +55,7 @@ def realtimebalance(res, updatetime, beforeDay):
 
     # 水平面数据
     loadbalancedata = {"LoadbalanceData": [unbalances_one, "%.2f%%" % (
-                (unbalances_one / samecoverxiaoqus_one if samecoverxiaoqus_one != 0 else 0) * 100),
+            (unbalances_one / samecoverxiaoqus_one if samecoverxiaoqus_one != 0 else 0) * 100),
                                            adjusteds,
                                            "%.2f%%" % ((adjusteds / unbalances if unbalances != 0 else 0) * 100),
                                            finished, "%.2f%%" % (finishedRate * 100),
