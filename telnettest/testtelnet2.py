@@ -18,7 +18,6 @@ def do_telnet(Host, Port):
 
 
 while True:
-
     res = do_telnet(Host, Port)
     print(str(Host) + ':' + str(Port) + ' ' + str(res))
     time.sleep(5)
