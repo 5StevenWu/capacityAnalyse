@@ -21,8 +21,9 @@ def kanban_req(day, url=url):
         "day": day,
         "city": "",
     }
-    # res = requests.post(url, params).text
-    # res = json.loads(res)
+    res = requests.post(url, params).text
+    res = json.loads(res)
+    '''
     res = {'LoadbalanceDataCount_Y': [
         {'countxiaoqu': 418, 'countlimit': 0, 'countyx': 149, 'countadjust': 647, 'countlogs': 759,
          'countsuccesslogs': 756,
@@ -261,6 +262,7 @@ def kanban_req(day, url=url):
          'successlogs': 0, 'unbalances_1': 0, 'samecoverxiaoqus': 1158, 'unbalances_one': 0,
          'samecoverxiaoqus_one': 2358,
          'countyx_1': 0, 'city': '黄石市', 'updatetime': '2021-08-30', 'id': 1561}]}
+         '''
     return res
 # """
 # print(res)
