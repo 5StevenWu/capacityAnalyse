@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import pandas as pd
+#import pandas as pd
 from kanban.data_writeF import req_all
 # df = pd.
 # all_data = [{'2021-10-11': {'LoadbalanceData': [74, '0.26%', 0, '0.00%', 0, '0.00%', 0, '0.00%'],
