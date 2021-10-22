@@ -5,7 +5,7 @@ Hosts = ['10.76.153.11', '10.76.153.11', '10.76.153.11']
 Ports = ['30100', '30101', '30102']
 
 
-def do_telnet(Host, Port):
+def do_telnet(Host, Port):d
     try:
         tn = telnetlib.Telnet(Host, Port, timeout=5)
         tn.close()
